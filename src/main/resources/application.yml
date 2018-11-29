@@ -1,0 +1,8 @@
+server:
+  port: 18080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jaredbark/spring-cloud-config-repo
